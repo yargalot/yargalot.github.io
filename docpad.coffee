@@ -110,9 +110,13 @@ docpadConfig =
         else
           next()
 
-  ghpages:
-        deployRemote: 'origin'
-        deployBranch: 'master'
+  # Plugins
+  # =============
+  
+  plugins:
+    ghpages:
+      deployRemote: 'origin'
+      deployBranch: 'master'
 
 
 # Export our DocPad Configuration
