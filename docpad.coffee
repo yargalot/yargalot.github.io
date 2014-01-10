@@ -110,6 +110,10 @@ docpadConfig =
         else
           next()
 
+  ghpages:
+        deployRemote: 'origin'
+        deployBranch: 'master'
+
 
 # Export our DocPad Configuration
 module.exports = docpadConfig
