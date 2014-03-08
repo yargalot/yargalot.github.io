@@ -1,10 +1,10 @@
 ---
-title: Posts
+title: Blog Stuff
 layout: page
 pageOrder: 2
 ---
 
-nav.linklist
+nav.linklist.list-unstyled
   each doc in getCollection('posts').toJSON()
     li
       span= doc.date.toDateString()
